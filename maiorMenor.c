@@ -1,9 +1,9 @@
+// Programa pede dois números e diz qual o maior, se houver.
+
 #include <stdio.h>
-#include <time.h>
 
 int main(){
     
-    int time = clock();
     int num1;
     int num2;
 
@@ -22,8 +22,5 @@ int main(){
         printf("Os dois números são iguais.");
     }
 
-    for(int i = 1; i < 1000001; i++){
-        printf("%d\n", i);
-    }
     return 0;
 }

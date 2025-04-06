@@ -1,3 +1,14 @@
+/*
+
+Programa inclui 4 modos:
+
+1- Pede o valor dos 3 lados de um triângulo e retorna o tipo de triângulo.
+2- Pede o valor dos 2 catetos de um triângulo e retorna o valor da hipotenusa.
+3- Pede o valor do raio de um círculo e retorna o valor da circumferência.
+4- Calculadora que pede primeiro a operação e depois os dois digitos a serem usados.
+
+*/ 
+
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
@@ -8,6 +19,7 @@
 int main(){
 
     int programa = 0;
+
     //Variáveis do programa de triângulos
     int possivel = 0;
     float A;
@@ -32,8 +44,9 @@ int main(){
     double num2;
     double resultado;
 
+
     printf(BOLD"Que programa deseja executar?\n");
-    printf("Programa de triângulos: Digite 1\n");
+    printf("Tipo do triângulos: Digite 1\n");
     printf("Calculadora de hipotenusa: Digite 2\n");
     printf("Calculadora de circumferência: Digite 3\n");
     printf("Calculadora padrão: Digite 4\n");

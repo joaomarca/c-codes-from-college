@@ -1,3 +1,6 @@
+// Programa define valores para todas as letras do alfabeto e, baseado no input dos dois jogadores, diz qual digitou a palavra com maior pontuação.
+// Programa baseado no popular jogo scrabble.
+
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
@@ -17,7 +20,7 @@ int main(void){
     fgets(p2inp, 45, stdin);
     int j = 0;
 
-    //Both of the following for loops check if the character at position i on the user input string is alpha(alphabetical). If it isnt, it doesnt pass through.
+    //Both of the following for loops check if the character at position i on the user input string is alphabetical. If it isn't, it doesn't pass through.
 
     for (int i = 0; i < strlen(p1inp); i++){
         if (isalpha(p1inp[i]) != 0){

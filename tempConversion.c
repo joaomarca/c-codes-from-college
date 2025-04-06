@@ -1,3 +1,5 @@
+// Programa pede a unidade de medição de temperatura e o valor, convertendo-o para as duas medidas de temperaturas diferentes da escolhida.
+
 #include <stdio.h>
 #include <ctype.h>
 
@@ -47,10 +49,3 @@ int main(){
 
     return 0;
 }
-
-
-/*
-
-
-
-*/

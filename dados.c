@@ -1,3 +1,5 @@
+// Programa que roda dados para o usuário e mostra a soma final de todos os valores rodados.
+
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
