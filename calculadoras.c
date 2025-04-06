@@ -46,7 +46,7 @@ int main(){
 
 
     printf(BOLD"Que programa deseja executar?\n");
-    printf("Tipo do triângulos: Digite 1\n");
+    printf("Tipo de triângulos: Digite 1\n");
     printf("Calculadora de hipotenusa: Digite 2\n");
     printf("Calculadora de circumferência: Digite 3\n");
     printf("Calculadora padrão: Digite 4\n");
